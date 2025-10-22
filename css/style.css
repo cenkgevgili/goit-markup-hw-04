@@ -238,13 +238,3 @@ footer {
   gap: 24px;
   padding: 120px 156px;
 }
-/* Dark-bg */
-
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
-
-/* GREY */
-background: rgba(46, 47, 66, 0.7);
