@@ -9,12 +9,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
 }
+
 .hero {
   background-color: #2e2f42;
   height: 600px;
@@ -26,6 +28,7 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 h1 {
   color: #fff;
   font-size: 56px;
@@ -35,17 +38,20 @@ h1 {
   width: 496px;
   height: 120px;
 }
+
 h3 {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
   margin-bottom: 8px;
 }
+
 h2 {
   font-size: 36px;
   text-align: center;
   line-height: 1.1;
 }
+
 header {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
@@ -53,6 +59,7 @@ header {
   padding: 23.5px;
   align-items: center;
 }
+
 img {
   display: block;
 }
@@ -61,15 +68,18 @@ img {
   color: #434455;
   text-decoration: none;
 }
+
 .page-nav .link:hover {
   color: #404bbf;
 }
+
 .mail,
 .tel {
   color: #434455;
   line-height: 1.5;
   text-decoration: none;
 }
+
 .mail:hover,
 .tel:hover {
   color: #404bbf;
@@ -87,12 +97,15 @@ img {
   padding: 16px 32px 16px 32px;
   gap: 10px;
 }
+
 .button:hover {
   background-color: #404bbf;
 }
+
 .button:focus {
   background-color: #404bbf;
 }
+
 .team {
   background-color: #f4f4fd;
   height: 732px;
@@ -116,27 +129,33 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   width: 264px;
-  height: 380px;
+  height: 428px;
+  flex: none;
 }
+
 .team-list img {
   max-width: 100%;
   height: 260px;
   object-fit: cover;
 }
+
 .person {
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-top: 32px;
 }
+
 .team h2 {
   margin-bottom: 72px;
 }
+
 .portfolio {
   display: flex;
   padding: 120px 0;
   flex-direction: column;
 }
+
 .portfolio-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -146,11 +165,13 @@ img {
   margin: 0 auto;
   padding: 0;
 }
+
 .portfolio-list img {
   max-width: 360px;
   height: 300px;
   object-fit: cover;
 }
+
 .portfolio li {
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -160,6 +181,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 .portfolio h2 {
   font-size: 36px;
   font-weight: 700;
@@ -167,12 +189,14 @@ img {
   text-align: center;
   margin-bottom: 72px;
 }
+
 .portfolio-list h3 {
   color: #2e2f42;
   margin: 32px 0 8px 16px;
   text-align: left;
   line-height: 24px;
 }
+
 .portfolio-list p {
   font-size: 16px;
   color: #434455;
@@ -180,6 +204,7 @@ img {
   text-align: left;
   line-height: 24px;
 }
+
 footer {
   background-color: #2e2f42;
   display: flex;
@@ -187,15 +212,18 @@ footer {
   justify-content: center;
   padding: 100px 156px;
 }
+
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 24px;
   max-width: 264px;
 }
+
 .logo {
   color: #4d5ae5;
 }
+
 .logo-a {
   color: #f4f4fd;
   text-decoration: none;
@@ -205,12 +233,14 @@ footer {
   font-weight: 700;
   margin-bottom: 16px;
 }
+
 .footer-logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
 }
+
 .logo-h {
   color: #2e2f42;
   text-decoration: none;
@@ -219,22 +249,61 @@ footer {
   font-family: Raleway;
   font-weight: 700;
 }
+
 .values-list,
 .team-list,
 .portfolio-list,
 .page-nav {
   list-style: none;
 }
+
 .container {
   width: 1440px;
   margin: 0 auto;
 }
+
 .page-nav {
   display: flex;
   gap: 40px;
 }
+
 .values-list {
   display: flex;
   gap: 24px;
   padding: 120px 156px;
+}
+.sosyal_medya {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.sosyal_medya .icon-instagram,
+.sosyal_medya .icon-facebook,
+.sosyal_medya .icon-linkedin,
+.sosyal_medya .icon-twitter {
+  width: 40px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+.icon-antenna,
+.icon-astronaut,
+.icon-clock,
+.icon-diagram {
+  border: 1px solid rgba(142, 143, 153, 1);
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+}
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 208px;
+  height: 80px;
+}
+.footer-social-text {
+  color: #ffffff;
 }
