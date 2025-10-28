@@ -239,6 +239,7 @@ footer {
   flex-direction: row;
   align-items: center;
   padding: 0px;
+  max-width: 264px;
 }
 
 .logo-h {
@@ -298,12 +299,30 @@ footer {
 }
 .footer-social {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   padding: 0px;
-  width: 208px;
+  max-width: 208px;
   height: 80px;
 }
 .footer-social-text {
   color: #ffffff;
+}
+.footer-sosyal_medya {
+  flex: none;
+  gap: 16px;
+  justify-content: center;
+}
+.footer-sosyal_medya .icon-instagram,
+.footer-sosyal_medya .icon-facebook,
+.footer-sosyal_medya .icon-linkedin,
+.footer-sosyal_medya .icon-twitter {
+  width: 40px;
+  height: 40px;
+  margin-top: 16px;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  gap: 120px;
 }
