@@ -301,14 +301,14 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0px;
-  max-width: 208px;
+  max-width: 100%;
   height: 80px;
 }
 .footer-social-text {
   color: #ffffff;
 }
 .footer-sosyal_medya {
-  flex: none;
+  display: flex;
   gap: 16px;
   justify-content: center;
 }
