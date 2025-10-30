@@ -72,7 +72,15 @@ img {
 .page-nav .link:hover {
   color: #404bbf;
 }
-
+.page-nav .link.active::after {
+  content: "";
+  display: block;
+  left: 0;
+  width: 48px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
 .mail,
 .tel {
   color: #434455;
@@ -210,7 +218,29 @@ img {
   text-align: left;
   line-height: 24px;
 }
-
+.card2 {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
+  background-color: #4d5ae5;
+}
+.overlay p {
+  color: #f4f4fd;
+  margin-top: 40px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.card2:hover .overlay {
+  transform: translateY(0);
+}
 footer {
   background-color: #2e2f42;
   display: flex;
