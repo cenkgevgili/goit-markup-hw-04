@@ -71,6 +71,9 @@ img {
 
 .page-nav .link:hover {
   color: #404bbf;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-nav .link.active::after {
   content: "";
@@ -91,6 +94,9 @@ img {
 .mail:hover,
 .tel:hover {
   color: #404bbf;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button {
@@ -108,6 +114,9 @@ img {
 
 .button:hover {
   background-color: #404bbf;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:focus {
@@ -361,4 +370,19 @@ footer {
   list-style: none;
   display: flex;
   gap: 120px;
+}
+.icon-instagram:hover,
+.icon-facebook:hover,
+.icon-linkedin:hover,
+.icon-twitter:hover {
+  fill: #31d0aa;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-facebook,
+.icon-instagram,
+.icon-linkedin,
+.icon-twitter {
+  fill: #4d5ae5;
 }
