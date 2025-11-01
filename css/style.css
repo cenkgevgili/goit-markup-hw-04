@@ -98,7 +98,10 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.iletisim {
+  display: flex;
+  gap: 40px;
+}
 .button {
   font-size: 16px;
   color: #ffffff;
